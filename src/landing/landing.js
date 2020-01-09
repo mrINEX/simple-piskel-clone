@@ -18,7 +18,7 @@ function landingHtml() {
   const buttonCreate = document.createElement('a');
   const buttonLog = document.createElement('a');
   buttonCreate.setAttribute('class', 'button create');
-  buttonCreate.setAttribute('href', '/create.html');
+  buttonCreate.setAttribute('href', './src/app.html');
   buttonCreate.textContent = 'Create Sprite';
   buttonLog.setAttribute('class', 'button log');
   buttonLog.textContent = 'Sign in';
@@ -39,7 +39,7 @@ function landingHtml() {
   divWrapperCreate.setAttribute('class', 'wrapper-create');
   const aCreate = document.createElement('a');
   aCreate.setAttribute('class', 'main-create');
-  aCreate.setAttribute('href', '/create.html');
+  aCreate.setAttribute('href', './src/app.html');
   aCreate.textContent = 'Create Sprite';
   divWrapperCreate.append(aCreate);
   wrapperMain.append(divWrapperCreate);
@@ -67,7 +67,7 @@ function landingHtml() {
   const oneimg = document.createElement('img');
   const onewrapper = document.createElement('div');
   oneimg.setAttribute('class', 'one-img');
-  oneimg.setAttribute('src', '/src/image/feature-live-preview.gif');
+  oneimg.setAttribute('src', './src/image/feature-live-preview.gif');
   onewrapper.setAttribute('class', 'one-wrapper');
   const oneH4 = document.createElement('h2');
   const oneP = document.createElement('p');
@@ -80,7 +80,7 @@ function landingHtml() {
   const twoimg = document.createElement('img');
   const twowrapper = document.createElement('div');
   twoimg.setAttribute('class', 'two-img');
-  twoimg.setAttribute('src', '/src/image/Megaman moving.gif');
+  twoimg.setAttribute('src', './src/image/Megaman moving.gif');
   twowrapper.setAttribute('class', 'two-wrapper');
   const twoH4 = document.createElement('h2');
   const twoP = document.createElement('p');
@@ -93,7 +93,7 @@ function landingHtml() {
   const threeimg = document.createElement('img');
   const threewrapper = document.createElement('div');
   threeimg.setAttribute('class', 'three-img');
-  threeimg.setAttribute('src', '/src/image/Panda.gif');
+  threeimg.setAttribute('src', './src/image/Panda.gif');
   threewrapper.setAttribute('class', 'three-wrapper');
   const threeH4 = document.createElement('h2');
   const threeP = document.createElement('p');
@@ -106,7 +106,7 @@ function landingHtml() {
   const fourimg = document.createElement('img');
   const fourwrapper = document.createElement('div');
   fourimg.setAttribute('class', 'four-img');
-  fourimg.setAttribute('src', '/src/image/llama.gif');
+  fourimg.setAttribute('src', './src/image/llama.gif');
   fourwrapper.setAttribute('class', 'four-wrapper');
   const fourH4 = document.createElement('h2');
   const fourP = document.createElement('p');
@@ -166,7 +166,8 @@ function landingHtml() {
   footer.append(footerItems);
   return 'done';
 }
+landingHtml();
 
 module.exports = {
   landingHtml,
-};
+}

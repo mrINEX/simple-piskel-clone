@@ -1,21 +1,20 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: './src/app.js',
+  //entry: './src/app.js',
+  entry: {
+    landing: './src/landing/landing.js',
+    //create: './src/create/create.js',
+    app: './src/app.js'
+  },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name].bundle.js', //path: path.resolve(__dirname, 'dist'),
+    path: __dirname + '/dist'     //filename: './bundle.js'
   },
   mode: 'development',
-  plugins: [
-    new HtmlWebpackPlugin({
-      filename: 'index.html',
-      template: 'src/landing/landing.html'
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'create.html',
-      template: 'src/create/create.html'
-    })
-  ],
+  //plugins: [
+  //  new HtmlWebpackPlugin({template: './src/app.html'})
+  //]
 };

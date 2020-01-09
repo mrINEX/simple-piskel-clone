@@ -2,7 +2,7 @@
   "name": "mrinex-rs2019q3",
   "version": "1.0.0",
   "description": "simple piskel clone",
-  "main": "index.js",
+  "main": "/src/app.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "babel-loader": "^8.0.6",
+    "canvas": "^2.6.1",
     "css-loader": "^3.4.0",
     "eslint": "^6.7.1",
     "eslint-config-airbnb-base": "^14.0.0",

@@ -81,32 +81,32 @@ a {
 }
 
 .pencil {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -182px -92px;
 }
 
 .bucket {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -228px -92px;
 }
 
 .eraser {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -46px -228px;
 }
 
 .stroke {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -46px -136px;
 }
 
 .picker {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -274px 0px;
 }
 
 .bucketall {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -229px -140px;
 }
 
@@ -140,7 +140,7 @@ a {
 }
 
 .swap-color {
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -274px -222px;
     width: 18px;
     height: 18px;
@@ -230,7 +230,7 @@ ul li {
 .canvas-background-mini {
     height: 200px;
     width: 200px;
-    background: url(/src/image/black-squares.png);
+    background: url(./image/black-squares.png);
     position: absolute;
     top: 0;
     right: 0;
@@ -324,7 +324,7 @@ ul li {
     margin: 3px;
     float: left;
     flex-shrink: 0;
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -274px -157px;
     width: 26px;
     height: 26px;
@@ -369,7 +369,7 @@ ul li {
 
 .canvas-background,
 .canvas-background-draw {
-    background: url(/src/image/black-squares.png);
+    background: url(./image/black-squares.png);
     position: absolute;
     top: 0;
     right: 0;
@@ -400,7 +400,7 @@ ul li {
     right: 0;
     border-bottom-left-radius: 3px;
     cursor: pointer;
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -274px -76px;
 }
 
@@ -409,7 +409,7 @@ ul li {
     right: 0;
     border-bottom-left-radius: 3px;
     cursor: pointer;
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -274px -106px;
 }
 
@@ -418,7 +418,7 @@ ul li {
     left: 0;
     border-top-right-radius: 3px;
     cursor: move;
-    background-image: url(/src/image/icons.png);
+    background-image: url(./image/icons.png);
     background-position: -274px -46px;
 }
 

@@ -18,7 +18,7 @@ function createHtml() {
   const buttonCreate = document.createElement('a');
   const buttonLog = document.createElement('a');
   buttonCreate.setAttribute('class', 'button create');
-  buttonCreate.setAttribute('href', '/create.html');
+  buttonCreate.setAttribute('href', './app.html');
   buttonCreate.textContent = 'Create Sprite';
   buttonLog.setAttribute('class', 'button log');
   buttonLog.textContent = 'Sign in';
